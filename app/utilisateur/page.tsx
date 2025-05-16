@@ -102,12 +102,13 @@
 //   );
 // }
 
-import { Button } from "@/src/components/ui/button"
+import UserTable from "@/src/components/ui/UserTable"
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div>
-      <Button>Click me</Button>
-    </div>
+    <main className="p-8">
+      <h1 className="text-3xl font-bold mb-6">Dashboard</h1>
+      <UserTable />
+    </main>
   )
 }
